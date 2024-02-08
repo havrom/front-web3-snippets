@@ -3,7 +3,7 @@ This is the part of DEX exchange project.
 
 ## Details
 
-**`AccountHealth`** is a widget (see the pic below) that displays how far user is away from margin call. Margin ratio is calculated based on backend data about particular account and converted into health percentage. 
+**`AccountHealth`** is a widget (the pic below) that displays how far user is away from margin call. Margin ratio is calculated based on backend data about particular account and converted into health percentage. 
 It has some basic markup along with Tailwind CSS classes and renderChart method that turns in into a widget bar - using for loop to create 5 bars, then fill them according to percentage number using some calculations for filled part width and color. It looks like this
 
 ![image](https://github.com/havrom/front-web3-snippets/assets/142303074/93639719-b4e3-4cd0-af67-d9f5c7562ca9)
