@@ -12,11 +12,11 @@ It has some basic markup along with Tailwind CSS classes and renderChart method 
 
 **`TradingView`** is a component that displays asset price’s chart using TradingView charting library api. It is configured for different screen sizes with own styles and feature sets. Also it uses both Binance and custom data feed which can be toggled between - it triggers reinitialisation of chart with new data. Mobile version was tweaked to have custom “no data” message and icon displayed as default one provided by library couldn’t be placed correctly.
 
-![image](https://github.com/havrom/front-web3-snippets/assets/142303074/c9205f50-8b3f-4c13-95a8-11f7cacc6c9e)
-
 *********************
 
 **`Chart`** is a graph component that displays dynamic of user’s balance over time. Using ApexCharts library it is customised to match required design and on click/hover shows custom tooltip widget which provides detailed information about account status for given timestamp.
+
+![image](https://github.com/havrom/front-web3-snippets/assets/142303074/c9205f50-8b3f-4c13-95a8-11f7cacc6c9e)
 
 ********************
 **web3 folder:**
